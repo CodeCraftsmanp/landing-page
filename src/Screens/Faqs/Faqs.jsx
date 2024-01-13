@@ -73,7 +73,7 @@ const Faqs = () => {
                 key='2'
                 extra={keyCheckerState === '2' ? genExtra2() : genExtra()}
               >
-                <p>For now it's TBA but in february/2024</p>
+                <p>in february/2024 join discord for more info </p>
               </Panel>
               <Panel
                 header='How can I join'

@@ -35,9 +35,9 @@ const Team = () => {
                 </div>
                 <div>
                   <p>
-                    Marketing expert <br /> Marketed for multiple <br />
-                    successful <br />
-                    NFT projects
+                    Marketing Manager<br />
+                    Marketing expert
+                    <br /> Collaboration Manager
                   </p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Team = () => {
                     <br />
                     Discord bots
                     <br />
-                    Solana programs <br />
+                    solana programs
                   </p>
                 </div>
               </div>

@@ -69,7 +69,7 @@ const Team = () => {
                 <div>
                   <p>
                     Discord Mod <br /> manager <br /> Runner <br />
-                    Golfer
+
                   </p>
                 </div>
               </div>

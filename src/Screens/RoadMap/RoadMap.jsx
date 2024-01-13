@@ -87,9 +87,7 @@ const RoadMap = ({ isJoinPage = false }) => {
                 <p>✦ Implement community voting mechanisms for major decisions </p>
                 <p>✦ Stay tuned for updates and exciting developments!</p>
               </div>
-              <div className={styles.circle}>
-                <div className={styles.circle_inner}></div>
-              </div>
+
             </div>
           </Animated>
         </Col>

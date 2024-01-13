@@ -62,32 +62,32 @@ const Faqs = () => {
               expandIconPosition='right'
             >
               <Panel
-                header='What is Lonely Bear Society?'
+                header='What is collection Supply ?'
                 key='1'
                 extra={keyCheckerState === '1' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p> a 999 unique chaotic wolf<br /> <br /> and another collection come for holders  </p>
               </Panel>
               <Panel
-                header='When will The Lonely Bear Society launch?'
+                header='When will chaotic wolves launch ?'
                 key='2'
                 extra={keyCheckerState === '2' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p>For now it's TBA but in february/2024</p>
               </Panel>
               <Panel
                 header='How can I join'
                 key='3'
                 extra={keyCheckerState === '3' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p>by following us on twitter and join discord server to get a chance for free mint </p>
               </Panel>
               <Panel
-                header='IS LONELY BEAR SOCIETY A PROMISING PROJECT?'
+                header='what is the utility of Chaotic wolves ?'
                 key='4'
                 extra={keyCheckerState === '4' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p>Check the  <a href='#roadmaps'>   Roadmap</a></p>
               </Panel>
               <Panel
                 header='Why mental health?'
@@ -97,7 +97,7 @@ const Faqs = () => {
                 <p>{text}</p>
               </Panel>
               <Panel
-                header='Why does the body of the bear not match the head?'
+                header='Why chaotic ?'
                 key='6'
                 extra={keyCheckerState === '6' ? genExtra2() : genExtra()}
               >
@@ -108,7 +108,7 @@ const Faqs = () => {
                 key='7'
                 extra={keyCheckerState === '7' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p>On solana blockchain </p>
               </Panel>
             </Collapse>
           </Col>

@@ -25,7 +25,7 @@ const Works = () => {
         <Col sm={12} md={12}>
           <div className={styles.works_head}>
             <h2>
-              WO<span>RKS</span>
+              WOl<span>ves</span>
             </h2>
           </div>
         </Col>
@@ -41,26 +41,14 @@ const Works = () => {
             <div className={styles.joining}>
               <div>
                 <h1>
-                  HOW CAN I <span>JOIN THEM?</span>
+                  HOW TO <span>JOIN US ?</span>
                 </h1>
               </div>
               <div>
                 <p>
-                  Join our Discord server for a whitelist. We still have spots
-                  left. But they will all be filled by early supporters of the
-                  project who are ready to mint once we announce the launch. If
-                  you, too, want to be among the few able to mint their piece of
-                  digital art and contribute to the mental wellness society.
-                </p>
-              </div>
-              <div>
-                <p>
-                  Join the Lonely Bear Society. By the end of April 2022,
-                  everything will be set in stone. That's the date the Lonely
-                  Bears sends out its first VIP invitations. And you can bring a
-                  bear to your wallet and everyone you care about. Once 8888 are
-                  minted, the early supporters of this project will be heavily
-                  rewarded.
+                  Join our Discord server and keep engage in general channel
+                  you will have a chance to get wl or og for free Mint out
+                  high wuality art work this is amazing !! isn't it ?.
                 </p>
               </div>
               <div>
@@ -70,13 +58,16 @@ const Works = () => {
                 </p>
               </div>
               <div>
-                <p>We are Lonely Bear but we are not lonely</p>
+                <p>We are Chaotic wolves  but we are not chaotic</p>
               </div>
               <div>
-                <button>
-                  <span>JOIN THE DISCORD</span>
-                </button>
+                <a href="https://discord.gg/BkDevbhgYu">
+                  <button>
+                    <span>JOIN  DISCORD</span>
+                  </button>
+                </a>
               </div>
+
             </div>
           </Animated>
         </Col>

@@ -26,15 +26,14 @@ const Heading = ({ showNavbar = true }) => {
       <Row>
         <Col sm={12} md={12}>
           <div
-            className={`${styles.heading_nav} ${
-              scrollY > 20 ? 'scrollable' : ''
-            }`}
+            className={`${styles.heading_nav} ${scrollY > 20 ? 'scrollable' : ''
+              }`}
           >
             <div className={`${styles.head} ${showNavbar ? '' : 'adjustHead'}`}>
               <h3>
                 <a href='#home'>
-                  LONELY BEAR <br />
-                  SOCIETY
+                  Chaotic Wolves <br />
+
                 </a>
               </h3>
             </div>
@@ -43,43 +42,36 @@ const Heading = ({ showNavbar = true }) => {
               {showNavbar ? (
                 <>
                   <p
-                    className={`${
-                      activeState === '#aboutus' ? styles.active_links : ''
-                    }`}
+                    className={`${activeState === '#aboutus' ? styles.active_links : ''
+                      }`}
                   >
                     <a href='#aboutus'>ABOUT US</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#works' ? styles.active_links : ''
-                    }`}
+                    className={`${activeState === '#works' ? styles.active_links : ''
+                      }`}
                   >
-                    <a href='#works'>WORKS</a>
+                    <a href='#works'>WOlves</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#teams' ? styles.active_links : ''
-                    }`}
+                    className={`${activeState === '#teams' ? styles.active_links : ''
+                      }`}
                   >
-                    <a href='#teams'>ARTIST</a>
+                    <a href='#teams'>Team</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#roadmaps' ? styles.active_links : ''
-                    }`}
+                    className={`${activeState === '#roadmaps' ? styles.active_links : ''
+                      }`}
                   >
                     <a href='#roadmaps'>ROADMAP</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#faqss' ? styles.active_links : ''
-                    }`}
+                    className={`${activeState === '#faqss' ? styles.active_links : ''
+                      }`}
                   >
                     <a href='#faqss'>FAQ</a>
                   </p>
-                  <p>
-                    <a>JOIN</a>
-                  </p>
+
                 </>
               ) : null}
             </div>
@@ -98,47 +90,40 @@ const Heading = ({ showNavbar = true }) => {
               <div className={styles.sidebar}>
                 <div className={styles.lists}>
                   <p
-                    className={`${
-                      activeState === '#aboutus'
-                        ? styles.active_links_mobile
-                        : ''
-                    }`}
+                    className={`${activeState === '#aboutus'
+                      ? styles.active_links_mobile
+                      : ''
+                      }`}
                   >
                     <a href='#aboutus'>ABOUT US</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#works' ? styles.active_links_mobile : ''
-                    }`}
+                    className={`${activeState === '#works' ? styles.active_links_mobile : ''
+                      }`}
                   >
-                    <a href='#works'>WORKS</a>
+                    <a href='#works'>Wolves</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#teams' ? styles.active_links_mobile : ''
-                    }`}
+                    className={`${activeState === '#teams' ? styles.active_links_mobile : ''
+                      }`}
                   >
-                    <a href='#teams'>ARTIST</a>
+                    <a href='#teams'>TEAM</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#roadmaps'
-                        ? styles.active_links_mobile
-                        : ''
-                    }`}
+                    className={`${activeState === '#roadmaps'
+                      ? styles.active_links_mobile
+                      : ''
+                      }`}
                   >
                     <a href='#roadmaps'>ROADMAP</a>
                   </p>
                   <p
-                    className={`${
-                      activeState === '#faqss' ? styles.active_links_mobile : ''
-                    }`}
+                    className={`${activeState === '#faqss' ? styles.active_links_mobile : ''
+                      }`}
                   >
                     <a href='#faqss'>FAQ</a>
                   </p>
-                  <p>
-                    <a>JOIN</a>
-                  </p>
+
                 </div>
                 <div>
                   <img
@@ -165,22 +150,10 @@ const Heading = ({ showNavbar = true }) => {
         <Col sm={12} md={8}>
           <div className={styles.bearContent}>
             <h1>
-              LONELY BEAR <br />
-              SOCIETY
+              Chaotic Wolves
             </h1>
-            <Animated
-              animationIn='animate__fadeInUp'
-              animationOut='fadeIn'
-              isVisible={true}
-            >
-              <button
-                className={`${styles.discordBtn} ${
-                  showNavbar ? '' : 'buttonOverride'
-                }`}
-              >
-                <span>JOIN OUR DISCORD</span>
-              </button>
-            </Animated>
+
+
           </div>
         </Col>
       </Row>

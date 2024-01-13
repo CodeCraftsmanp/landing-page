@@ -19,31 +19,42 @@ const AboutUs = () => {
                   ABOUT <span>US</span>
                 </h1>
                 <p>
-                  Lonely Bear Society is a community-driven NFT project. The
-                  collection consists of over a hundred exciting traits of
-                  faces, hair, hats, body, and backgrounds to ensure each bear
-                  is a unique, non-fungible token on the Ethereum blockchain.ß
+                  At 'Chaotic Wolves,' our journey began with a shared passion
+                  for the untamed beauty of wolves and a vision to translate that
+                  raw energy into the digital realm. The mesmerizing allure of
+                  these creatures inspired our artists to create a collection that
+                  goes beyond conventional boundaries. Our mission is to bring the
+                  spirit of the wild into the blockchain, and we're proud to announce
+                  that 'Chaotic Wolves' finds its home on the Solana blockchain. Offering
+                  a limited supply of 999 high-quality artworks, we aim to capture the
+                  essence of chaos and freedom in this innovative and rapidly-growing
+                  blockchain ecosystem.
                 </p>
               </div>
               <div>
-                <h2>LONELY SOCIETY FOUNDATION</h2>
+                <h2>Chaotic Wolves NFTs on Solana</h2>
                 <p>
-                  A portion of the sales from the Lonely Bear Society
-                  collections will be used to put up a non-profit,
-                  non-governmental organization (NGO) called Lonely Society
-                  Foundation. The main goal of the NGO is to set up physical
-                  clinics for those struggling with mental health problems and
-                  to create a community that has the resource to guide the
-                  youth.
+                  We envision a future where each Chaotic Wolf NFT becomes a
+                  symbol of strength and individuality in the vast landscape
+                  of the Solana blockchain art community. What sets 'Chaotic Wolves'
+                  apart is not only the exceptional quality of our digital masterpieces
+                  but also the exclusivity of a 999-piece collection. Each artwork
+                  tells a unique story, reflecting the chaotic beauty of the wolf,
+                  meticulously crafted to resonate with art enthusiasts and crypto
+                  collectors on the Solana network.
+
                 </p>
               </div>
               <div>
-                <h2>METAVERSE READY</h2>
+                <h2> Digital Sanctuary of Excellence on Solana</h2>
                 <p>
-                  We will buy land in the metaverse to build the first mental
-                  health organization; we will host events every month with
-                  exciting prizes to win for our holders. Of course, each holder
-                  will get their unique 3D avatar in the metaverse.
+                  As stewards of this digital wilderness, we take pride in our
+                  commitment to excellence and authenticity. 'Chaotic Wolves'
+                  is not just an NFT collection; it's a sanctuary for those who
+                  seek extraordinary, high-quality digital art. Join us in
+                  unleashing the power of the wild as we redefine the boundaries
+                  of digital creativity on the Solana blockchain and usher in
+                  a new era of blockchain artistry
                 </p>
               </div>
             </div>

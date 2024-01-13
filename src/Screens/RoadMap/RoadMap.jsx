@@ -45,95 +45,50 @@ const RoadMap = ({ isJoinPage = false }) => {
                 <div className={styles.circle_inner}></div>
               </div>
               <div>
-                <h1>01</h1>
+                <h1>Q1 2024 </h1>
               </div>
               <div>
-                <h2>Community First</h2>
+                <p>✦ Build a strong community</p>
+                <p>✦ Foster an active community</p>
+                <p>✦ Launch giveaways in Discord and Twitter</p>
+                <p>✦ Mint 999 unique CW</p>
+                <p>✦ Build a stake system for collection (Earn $WOLF from staking your CW)</p>
+                <p>✦ Air drop V1 for our holders</p>
+                <p>✦ Take Community Feedback</p>
+                <p>✦ Big Collaborations to attract attention from major companies and potential investors</p>
               </div>
-              <div>
-                <p>
-                  Everything starts and ends with the community. The moment we
-                  prioritize something other than the community will be the
-                  beginning of the end. We won't let that happen. We let the
-                  community decide on the direction for Lonely Bear society by
-                  doing monthly holders' votes and discussions. Lonely Bear
-                  Society is a movement, we understand how supportive the nft
-                  space is, and we will be the first one to incorporate mental
-                  wellness into the metaverse. We want our holders to be proud
-                  of putting our title in their bio.
-                </p>
-              </div>
+
               <div className={styles.circle}>
                 <div className={styles.circle_inner}></div>
               </div>
               <div>
-                <h1>02</h1>
+                <h1>Q2 2024</h1>
               </div>
               <div>
-                <h2>Utility</h2>
+                <p>✦ Launch $WOLF token on SOL blockchain</p>
+                <p>✦ Prepare to launch a unique collection for our old holders</p>
+                <p>✦ Launch and mint collection for our holders</p>
+                <p>✦ Air drop V2 for our holders</p>
+                <p>✦ Build a stake system to stake our token</p>
               </div>
-              <div>
-                <p>
-                  Everything starts and ends with the community. The moment we
-                  prioritize something other than the community will be the
-                  beginning of the end. We won't let that happen. We let the
-                  community decide on the direction for Lonely Bear society by
-                  doing monthly holders' votes and discussions. Lonely Bear
-                  Society is a movement, we understand how supportive the nft
-                  space is, and we will be the first one to incorporate mental
-                  wellness into the metaverse. We want our holders to be proud
-                  of putting our title in their bio.
-                </p>
-              </div>
+
+
               <div className={styles.circle}>
                 <div className={styles.circle_inner}></div>
               </div>
               <div>
-                <h1>03</h1>
+                <h1>Futur</h1>
               </div>
               <div>
-                <h2>Lonely Society Foundation</h2>
+                <h2>Up coming</h2>
               </div>
               <div>
-                <p>
-                  The founders grew up with no direction and support from their
-                  families, damaging their upbringing. We don't want that to
-                  happen to our community. A portion of the Lonely Bear Society
-                  collections sales will be used to put up a non-profit,
-                  non-governmental organization called The Lonely Society
-                  Foundation. The main goal of the NGO is to set up
-                  physical/online clinics for those struggling with health
-                  issues and to create a community that has the resource to
-                  guide the youth. A portion of the secondary sales will be put
-                  into the foundation.
-                </p>
+                <p>✦ Continuously listen to and watch our community </p>
+                <p>✦ Implement community voting mechanisms for major decisions </p>
+                <p>✦ Stay tuned for updates and exciting developments!</p>
               </div>
               <div className={styles.circle}>
                 <div className={styles.circle_inner}></div>
-              </div>
-              <div>
-                <h1>04</h1>
-              </div>
-              <div>
-                <h2>Metaverse</h2>
-              </div>
-              <div>
-                <p>
-                  We are searching for land to build the very Health clinic in
-                  the metaverse. Sandbox VR, Decentraland, Cryptovoxels, and
-                  Somnium Space are a few platforms we consider.
-                </p>
-                <p>
-                  We are searching for land to build the very Health clinic in
-                  the metaverse. Sandbox VR, Decentraland, Cryptovoxels, and
-                  Somnium Space are a few platforms we consider.
-                </p>
-                <p>
-                  We will host events that allow holders to network and build
-                  new relationships and host monthly health workshops. And, of
-                  course, each holder will get their unique 3D Lonely Bear in
-                  the metaverse.
-                </p>
               </div>
             </div>
           </Animated>

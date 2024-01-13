@@ -32,7 +32,7 @@ const Team = () => {
                 </div>
                 <div>
                   <p>
-                    Funder & Dev<br />
+                    Founder & Dev<br />
                     Art Generator
                     <br />
                     Discord bots

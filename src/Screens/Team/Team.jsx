@@ -23,6 +23,24 @@ const Team = () => {
         <Col sm={12} md={12}>
           <Animated isVisible={true} animationIn="animate__fadeInUpBig" animationOut="animate__fadeInUpBig">
             <div className={styles.team}>
+
+              <div className={styles.character2}>
+                <div>
+                  <img src='Assets/teambear2.png' alt='teambear2' />
+                </div>
+                <div>
+                  <h3>sandro
+
+                  </h3>
+                </div>
+                <div>
+                  <p>
+                    Marketing expert <br /> Marketed for multiple <br />
+                    successful <br />
+                    NFT projects
+                  </p>
+                </div>
+              </div>
               <div className={styles.character1}>
                 <div>
                   <img src='Assets/teambear1.png' alt='teambear1' />
@@ -38,23 +56,6 @@ const Team = () => {
                     Discord bots
                     <br />
                     Solana programs <br />
-                  </p>
-                </div>
-              </div>
-              <div className={styles.character2}>
-                <div>
-                  <img src='Assets/teambear2.png' alt='teambear2' />
-                </div>
-                <div>
-                  <h3>sandro
-
-                  </h3>
-                </div>
-                <div>
-                  <p>
-                    Marketing expert <br /> Marketed for multiple <br />
-                    successful <br />
-                    NFT projects
                   </p>
                 </div>
               </div>

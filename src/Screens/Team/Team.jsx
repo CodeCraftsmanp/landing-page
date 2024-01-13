@@ -67,7 +67,7 @@ const Team = () => {
                 </div>
                 <div>
                   <p>
-                    Smart Contract <br /> NFT enthusiast <br /> Runner <br />
+                    Discord Mod <br /> manager <br /> Runner <br />
                     Golfer
                   </p>
                 </div>

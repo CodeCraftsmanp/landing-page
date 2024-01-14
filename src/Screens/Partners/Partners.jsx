@@ -27,7 +27,7 @@ const Partners = ({ isJoinPage = false }) => {
               <div className={styles.social_icons}>
                 <a href="https://twitter.com/_ChaoticWolves" target="_blank" rel="noopener noreferrer">
                   <div>
-                    <img src="Assets/xlogo.png" alt="X Icon" width="200" height="120" />
+                    <img src="Assets/xlogo.png" alt="X Icon" width="100" height="100" />
                   </div>
                 </a>
                 <a href="https://discord.gg/CcbvYvxV58" target="_blank" rel="noopener noreferrer">

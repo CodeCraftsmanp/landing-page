@@ -39,6 +39,11 @@ const Partners = ({ isJoinPage = false }) => {
                     </svg>
                   </div>
                 </a>
+                <a href="https://www.subber.xyz/chaotic-wolves" target="_blank" rel="noopener noreferrer">
+                  <div>
+                    <img src="Assets/subber.png" alt="Subber Icon" width="100" height="100" />
+                  </div>
+                </a>
               </div>
 
 

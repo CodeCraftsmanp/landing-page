@@ -90,18 +90,18 @@ const Faqs = () => {
                 <p>Check the  <a href='#roadmaps'>   Roadmap</a></p>
               </Panel>
               <Panel
-                header='Why mental health?'
+                header='Why did the wolf join the blockchain?'
                 key='5'
                 extra={keyCheckerState === '5' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p>To create 'Awooooo'-arious chaos in the digital art world with Chaotic Wolves on Solana!</p>
               </Panel>
               <Panel
                 header='Why chaotic ?'
                 key='6'
                 extra={keyCheckerState === '6' ? genExtra2() : genExtra()}
               >
-                <p>{text}</p>
+                <p>Why be orderly when you can run wild with blockchain wolves?</p>
               </Panel>
               <Panel
                 header='WHAT BLOCKCHAIN IS THE PROJECT HOSTED ON?'

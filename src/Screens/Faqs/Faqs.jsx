@@ -76,7 +76,7 @@ const Faqs = () => {
                 <p>in february/2024 join discord for more info </p>
               </Panel>
               <Panel
-                header='How can I join'
+                header='How can I join ?'
                 key='3'
                 extra={keyCheckerState === '3' ? genExtra2() : genExtra()}
               >

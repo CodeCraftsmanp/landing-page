@@ -12,14 +12,13 @@ const Partners = ({ isJoinPage = false }) => {
       <Row>
         <Col sm={12} md={12}>
           <div className={styles.img_container}>
-            <img src='Assets/bottompage.png' alt='' />
+            {/*<img src='Assets/bottompage.png' alt='' />*/}
           </div>
         </Col>
         <Col sm={12} md={12}>
           <div className={`${styles.partners} ${isJoinPage ? "partnersOverride" : ""}`}>
             <div className={styles.head}>
               <h3>
-
                 CWN
               </h3>
             </div>

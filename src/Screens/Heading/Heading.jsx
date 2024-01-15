@@ -150,7 +150,7 @@ const Heading = ({ showNavbar = true }) => {
         <Col sm={12} md={8}>
           <div className={styles.bearContent}>
             <h1>
-              Chaotic Wolves
+              Chaotic Wolves <br />
             </h1>
 
 

@@ -29,7 +29,7 @@ const Team = () => {
                   <img src='Assets/teambear2.png' alt='teambear2' />
                 </div>
                 <div>
-                  <h3>sandro
+                  <h3> Mr WOLF
 
                   </h3>
                 </div>

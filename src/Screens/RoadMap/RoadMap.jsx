@@ -45,7 +45,7 @@ const RoadMap = ({ isJoinPage = false }) => {
                 <div className={styles.circle_inner}></div>
               </div>
               <div>
-                <h1>Q1 2024 </h1>
+                <h1>Phase 1 </h1>
               </div>
               <div>
                 <p>✦ Build a strong community</p>
@@ -62,10 +62,9 @@ const RoadMap = ({ isJoinPage = false }) => {
                 <div className={styles.circle_inner}></div>
               </div>
               <div>
-                <h1>Q2 2024</h1>
+                <h1>Phase 2</h1>
               </div>
               <div>
-                <p>✦ Launch $WOLF token on SOL blockchain</p>
                 <p>✦ Prepare to launch a unique collection for our old holders</p>
                 <p>✦ Launch and mint collection for our holders</p>
                 <p>✦ Air drop V2 for our holders</p>

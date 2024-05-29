@@ -1,23 +1,23 @@
-import React from 'react';
-import { Col, Row } from 'reactstrap';
-import SliderComponent from '../../Components/Slider/Slider';
-import styles from './Works.module.scss';
-import { Animated } from 'react-animated-css';
+import React from "react";
+import { Col, Row } from "reactstrap";
+import SliderComponent from "../../Components/Slider/Slider";
+import styles from "./Works.module.scss";
+import { Animated } from "react-animated-css";
 
 const Works = () => {
   let imgArr = [
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
-    'Assets/slideImg1.png',
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
+    "Assets/slideImg1.png",
   ];
   return (
     <div className={styles.main_works} id="works">
@@ -35,8 +35,8 @@ const Works = () => {
         <Col sm={12} md={12}>
           <Animated
             isVisible={true}
-            animationIn='animate__fadeInUpBig'
-            animationOut='animate__fadeInUpBig'
+            animationIn="animate__fadeInUpBig"
+            animationOut="animate__fadeInUpBig"
           >
             <div className={styles.joining}>
               <div>
@@ -46,9 +46,9 @@ const Works = () => {
               </div>
               <div>
                 <p>
-                  Join our Discord server and keep engage in general channel
-                  you will have a chance to get wl or og for free Mint out
-                  high wuality art work this is amazing !! isn't it ?.
+                  Join our Discord server and keep engage in general channel you
+                  will have a chance to get wl or og for our high wuality art
+                  work this is amazing !! isn't it ?.
                 </p>
               </div>
               <div>
@@ -58,16 +58,15 @@ const Works = () => {
                 </p>
               </div>
               <div>
-                <p>We are Chaotic wolves  but we are not chaotic</p>
+                <p>We are Chaotic wolves but we are not chaotic</p>
               </div>
               <div>
                 <a href="https://discord.gg/BkDevbhgYu">
                   <button>
-                    <span>JOIN  DISCORD</span>
+                    <span>JOIN DISCORD</span>
                   </button>
                 </a>
               </div>
-
             </div>
           </Animated>
         </Col>

@@ -50,9 +50,9 @@ const RoadMap = ({ isJoinPage = false }) => {
               <div>
                 <p>✦ Build a strong community</p>
                 <p>✦ Foster an active community</p>
-                <p>✦ Launch giveaways in Discord and Twitter</p>
                 <p>✦ Mint 999 unique CW</p>
-                <p>✦ Build a stake system for collection (Earn $WOLF from staking your CW)</p>
+                <p>✦ Build a Holding verification bot in venom network</p>
+                <p>✦ Build a stake system for collection</p>
                 <p>✦ Air drop V1 for our holders</p>
                 <p>✦ Take Community Feedback</p>
                 <p>✦ Big Collaborations to attract attention from major companies and potential investors</p>

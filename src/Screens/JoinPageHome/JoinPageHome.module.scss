@@ -1,11 +1,36 @@
-.main_join_page_home{
+.main_Home_container {
     width: 100%;
-    // height: 3510px;
-    height: 100%;
-    background-image: url('../../../public/Assets/joinbg.png');
+    min-height: 100vh;
+    background-image: url('../../../public/Assets/fractal-wolves-background.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: scroll;
-    overflow: hidden;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* Add these new styles for better responsiveness and performance */
+@media (max-width: 768px) {
+    .main_Home_container {
+        background-attachment: scroll;
+    }
+}
+
+/* Optional: Add a subtle overlay for better text readability if needed */
+.main_Home_container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 11, 24, 0.3);
+    /* Adjust the color and opacity as needed */
+    z-index: 1;
+}
+
+/* Ensure content appears above the overlay */
+.main_Home_container>* {
+    position: relative;
+    z-index: 2;
 }

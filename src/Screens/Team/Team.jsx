@@ -26,7 +26,7 @@ const Team = () => {
 
               <div className={styles.character2}>
                 <div>
-                  <img src='Assets/teambear2.png' alt='teambear2' />
+                  <img src='Assets/team2.png' alt='team2' />
                 </div>
                 <div>
                   <h3> Mr WOLF
@@ -43,32 +43,27 @@ const Team = () => {
               </div>
               <div className={styles.character1}>
                 <div>
-                  <img src='Assets/teambear1.png' alt='teambear1' />
+                  <img src='Assets/team1.png' alt='team1' />
                 </div>
                 <div>
                   <h3>AlphaWolf </h3>
                 </div>
                 <div>
                   <p>
-                    Founder & Dev<br />
-                    Art Generator
-                    <br />
-                    Discord bots
-                    <br />
-                    solana programs
-                  </p>
+                    Founder<br/> of <br/> fractal Wolves
+                    </p>
                 </div>
               </div>
               <div className={styles.character3}>
                 <div>
-                  <img src='Assets/teambear3.png' alt='teambear3' />
+                  <img src='Assets/team3.png' alt='team3' />
                 </div>
                 <div>
                   <h3>WOLFKING</h3>
                 </div>
                 <div>
                   <p>
-                    Discord Mod <br /> manager <br /> Runner <br />
+                    Art generator  <br /> Developer
 
                   </p>
                 </div>

@@ -13,7 +13,7 @@ const SpaceBears = () => {
                         </div>
                         <div className={styles.btn}>
                             <button className={styles.discordBtn}>
-                                <span>JOIN OUR DISCORD</span>
+                                <span>CHECK OUR TWITTER </span>
                             </button>
                         </div>
                         <div className={styles.second_bear}>

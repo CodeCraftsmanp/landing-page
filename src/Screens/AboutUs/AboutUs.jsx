@@ -16,7 +16,7 @@ const AboutUs = () => {
             <div className={styles.about_content}>
               <div>
                 <h1>
-                  ABOUT <span>US</span>
+                 ABOUT <span>US</span>
                 </h1>
                 <p>
                   At 'Fractal Wolves,' our journey began with a shared passion
@@ -33,7 +33,7 @@ const AboutUs = () => {
                 </p>
               </div>
               <div>
-                <h2>Fractal Wolves NFTs on Fractal Bitcoin</h2>
+                <h2>Fractal Wolves NFTs on <span>Fractal Bitcoin</span></h2>
                 <p>
                   We envision a future where each Fractal Wolf NFT becomes a
                   symbol of complexity and individuality in the vast landscape of

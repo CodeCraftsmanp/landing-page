@@ -23,12 +23,13 @@ const Partners = ({ isJoinPage = false }) => {
             }`}
           >
             <div className={styles.head}>
-              <h3>CWN</h3>
+              <h3>Fractal Wolves NFT</h3>
             </div>
             {isJoinPage ? null : (
               <div className={styles.social_icons}>
                 <a
-                  href="https://twitter.com/_ChaoticWolves"
+                  href="https://twitter.com/@Fractal_wolves
+"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -39,20 +40,6 @@ const Partners = ({ isJoinPage = false }) => {
                       width="100"
                       height="100"
                     />
-                  </div>
-                </a>
-                <a
-                  href="https://discord.gg/CcbvYvxV58"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div>
-                    <img
-                      src="https://skillicons.dev/icons?i=discord	"
-                      alt="X Icon"
-                      width="90"
-                      height="90"
-                    ></img>
                   </div>
                 </a>
               </div>

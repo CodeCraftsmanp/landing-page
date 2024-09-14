@@ -41,29 +41,29 @@ const Works = () => {
             <div className={styles.joining}>
               <div>
                 <h1>
-                  HOW TO <span>JOIN US ?</span>
+                  HOW TO <span>JOIN US?</span>
                 </h1>
               </div>
               <div>
                 <p>
-                  Join our Discord server and keep engage in general channel you
-                  will have a chance to get wl or og for our high wuality art
-                  work this is amazing !! isn't it ?.
+                  Follow us on Twitter and engage with our tweets. You'll have a chance
+                  to get whitelisted or become an OG for our high-quality artwork.
+                  This is amazing!! Isn't it?
                 </p>
               </div>
               <div>
                 <p>
-                  We are spreading mental awareness in a new and different way,
-                  join us to make a difference in this world
+                  We are spreading mental health awareness in a new and different way.
+                  Join us to make a difference in this world.
                 </p>
               </div>
               <div>
-                <p>We are Fractal Wolves </p>
+                <p>We are Fractal Wolves</p>
               </div>
               <div>
-                <a href="https://discord.gg/BkDevbhgYu">
+                <a href="https://x.com/Fractal_wolves">
                   <button>
-                    <span>JOIN DISCORD</span>
+                    <span>FOLLOW ON TWITTER</span>
                   </button>
                 </a>
               </div>

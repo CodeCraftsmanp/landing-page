@@ -51,9 +51,7 @@ const RoadMap = ({ isJoinPage = false }) => {
                 <p>✦ Build a strong community</p>
                 <p>✦ Foster an active community</p>
                 <p>✦ Mint 999 unique FW (Fractal Wolves)</p>
-                <p>✦ Build a Holding verification bot in Fractal Bitcoin network</p>
-                <p>✦ Build a stake system for collection</p>
-                <p>✦ Air drop V1 for our holders</p>
+                <p>✦ Build a Minting system for CAT protocol tokens</p>
                 <p>✦ Take Community Feedback</p>
                 <p>✦ Big Collaborations to attract attention from major companies and potential investors</p>
               </div>
@@ -67,7 +65,6 @@ const RoadMap = ({ isJoinPage = false }) => {
               <div>
                 <p>✦ Prepare to launch a unique collection for our old holders</p>
                 <p>✦ Launch and mint collection for our holders</p>
-                <p>✦ Air drop V2 for our holders</p>
                 <p>✦ Build a stake system to stake our token</p>
               </div>
 
@@ -75,10 +72,7 @@ const RoadMap = ({ isJoinPage = false }) => {
                 <div className={styles.circle_inner}></div>
               </div>
               <div>
-                <h1>Future</h1>
-              </div>
-              <div>
-                <h2>Upcoming</h2>
+                <h1>Upcoming</h1>
               </div>
               <div>
                 <p>✦ Continuously listen to and watch our community </p>

@@ -36,11 +36,6 @@ const Faqs = () => {
       setKeyCheckerState(key[0]);
     }
   }
-  const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
 
   return (
     <div className={styles.main_faqs} id="faqss">
@@ -62,40 +57,40 @@ const Faqs = () => {
               expandIconPosition="right"
             >
               <Panel
-                header="What is collection Supply ?"
+                header="What is the collection Supply?"
                 key="1"
                 extra={keyCheckerState === "1" ? genExtra2() : genExtra()}
               >
                 <p>
                   {" "}
-                  a 999 unique chaotic wolf
-                  <br /> <br /> and another collection come for holders{" "}
+                  999 unique Fractal Wolves
+                  <br /> <br /> and another collection coming for holders{" "}
                 </p>
               </Panel>
               <Panel
-                header="When will chaotic wolves launch ?"
+                header="When will Fractal Wolves launch?"
                 key="2"
                 extra={keyCheckerState === "2" ? genExtra2() : genExtra()}
               >
-                <p>in June/2024 join discord for more info </p>
+                <p>In this month. Join our Discord for more info.</p>
               </Panel>
               <Panel
-                header="How can I join ?"
+                header="How can I join?"
                 key="3"
                 extra={keyCheckerState === "3" ? genExtra2() : genExtra()}
               >
                 <p>
-                  by following us on twitter and join discord server to get a
-                  chance for free mint{" "}
+                  By following us on Twitter and joining our Discord server to get a
+                  chance for free mint.
                 </p>
               </Panel>
               <Panel
-                header="what is the utility of Chaotic wolves ?"
+                header="What is the utility of Fractal Wolves?"
                 key="4"
                 extra={keyCheckerState === "4" ? genExtra2() : genExtra()}
               >
                 <p>
-                  Check the <a href="#roadmaps"> Roadmap</a>
+                  Check the <a href="#roadmaps">Roadmap</a>
                 </p>
               </Panel>
               <Panel
@@ -104,17 +99,18 @@ const Faqs = () => {
                 extra={keyCheckerState === "5" ? genExtra2() : genExtra()}
               >
                 <p>
-                  To create 'Awooooo'-arious chaos in the digital art world with
-                  Chaotic Wolves on Venom!
+                  To create 'Awooooo'-mazing fractals in the digital art world with
+                  Fractal Wolves on Fractal Bitcoin!
                 </p>
               </Panel>
               <Panel
-                header="Why chaotic ?"
+                header="Why fractals?"
                 key="6"
                 extra={keyCheckerState === "6" ? genExtra2() : genExtra()}
               >
                 <p>
-                  Why be orderly when you can run wild with blockchain wolves?
+                  Because nature's complexity and beauty are best expressed through fractals, 
+                  just like our blockchain wolves!
                 </p>
               </Panel>
               <Panel
@@ -122,7 +118,7 @@ const Faqs = () => {
                 key="7"
                 extra={keyCheckerState === "7" ? genExtra2() : genExtra()}
               >
-                <p>On Venom blockchain </p>
+                <p>On the Fractal Bitcoin blockchain</p>
               </Panel>
             </Collapse>
           </Col>

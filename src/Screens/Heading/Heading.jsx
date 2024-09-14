@@ -32,7 +32,7 @@ const Heading = ({ showNavbar = true }) => {
             <div className={`${styles.head} ${showNavbar ? '' : 'adjustHead'}`}>
               <h3>
                 <a href='#home'>
-                  Chaotic Wolves <br />
+                Fractal Wolves <br />
 
                 </a>
               </h3>
@@ -150,7 +150,7 @@ const Heading = ({ showNavbar = true }) => {
         <Col sm={12} md={8}>
           <div className={styles.bearContent}>
             <h1>
-              Chaotic Wolves <br />
+            Fractal Wolves <br />
             </h1>
 
 

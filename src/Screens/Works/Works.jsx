@@ -58,7 +58,7 @@ const Works = () => {
                 </p>
               </div>
               <div>
-                <p>We are Chaotic wolves but we are not chaotic</p>
+                <p>We are Fractal Wolves </p>
               </div>
               <div>
                 <a href="https://discord.gg/BkDevbhgYu">

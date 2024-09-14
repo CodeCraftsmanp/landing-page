@@ -8,7 +8,7 @@ const Footer = () => {
             <Row>
                 <Col sm={12} md={12}>
                     <div className={styles.footer}>
-                        <p>©Copyright-2024 Chaotic Wolves. All rights reserved.</p>
+                        <p>©Copyright-2024 Fractal Wolves. All rights reserved.</p>
                     </div>
                 </Col>
             </Row>

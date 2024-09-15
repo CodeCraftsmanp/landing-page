@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A2342;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#23395B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)"/>
+
+  <!-- Animated fractal-like patterns -->
+  <g filter="url(#glow)">
+    <!-- Large central pattern -->
+    <path d="M500,500 L600,400 L700,500 L600,600 Z" fill="none" stroke="#4A6FA5" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 500" to="360 500 500" dur="30s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Smaller rotating patterns -->
+    <g>
+      <path d="M0,0 L50,-50 L100,0 L50,50 Z" fill="none" stroke="#4A6FA5" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="15s" repeatCount="indefinite"/>
+      </path>
+      <animateMotion path="M500,500 Q700,300 900,500 T500,500" dur="45s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M0,0 L75,-75 L150,0 L75,75 Z" fill="none" stroke="#4A6FA5" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="20s" repeatCount="indefinite"/>
+      </path>
+      <animateMotion path="M500,500 Q300,700 100,500 T500,500" dur="50s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Wolf-inspired shapes -->
+  <g opacity="0.7" filter="url(#glow)">
+    <path d="M200,800 Q300,700 400,800 T600,800" fill="none" stroke="#E1E5EE" stroke-width="2">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+        M200,800 Q300,700 400,800 T600,800;
+        M200,820 Q300,720 400,820 T600,820;
+        M200,800 Q300,700 400,800 T600,800"
+      />
+    </path>
+    <circle cx="300" cy="750" r="5" fill="#E1E5EE">
+      <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="750" r="5" fill="#E1E5EE">
+      <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating particles -->
+  <g>
+    <circle cx="100" cy="100" r="2" fill="#4A6FA5">
+      <animateMotion path="M0,0 Q100,50 0,100 T0,0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="100" r="2" fill="#4A6FA5">
+      <animateMotion path="M0,0 Q-100,50 0,100 T0,0" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="900" r="2" fill="#4A6FA5">
+      <animateMotion path="M0,0 Q100,-50 0,-100 T0,0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

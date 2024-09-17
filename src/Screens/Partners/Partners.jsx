@@ -3,6 +3,14 @@ import { Row, Col } from "reactstrap";
 import styles from "./Partners.module.scss";
 import "./OverRide.scss";
 
+const MintButton = () => (
+  <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">
+  <button className={styles.mintButton}>
+    <span>Mint your Wolf now !!!</span>
+  </button>
+  </a>
+);
+
 const Partners = ({ isJoinPage = false }) => {
   return (
     <div
@@ -23,13 +31,12 @@ const Partners = ({ isJoinPage = false }) => {
             }`}
           >
             <div className={styles.head}>
-              <h3>Fractal Wolves NFT</h3>
+              <MintButton />
             </div>
             {isJoinPage ? null : (
               <div className={styles.social_icons}>
                 <a
-                  href="https://twitter.com/@Fractal_wolves
-"
+                  href="https://twitter.com/@Fractal_wolves"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

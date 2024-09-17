@@ -93,16 +93,52 @@
   @include media('mobile') {
     padding-bottom: 0.5rem;
   }
+}
 
-  h3 {
+.mintButton {
+  background: #fff;
+  border-radius: 9px;
+  border-bottom-right-radius: 0;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Lemons-Bold;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.175em;
+  line-height: 1.09em;
+  overflow: hidden;
+  padding: 25px 70px;
+  position: relative;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  vertical-align: middle;
+  border: none;
+
+  span {
+    position: relative;
+    z-index: 99;
+  }
+
+  &::after {
+    border-bottom-left-radius: 100px;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease-in-out;
+    width: 130px;
+    background: linear-gradient(90deg, #e2772f -29.23%, #a55824 93.85%);
+  }
+
+  &:hover {
     color: #ffffff;
-    font-size: 40px;
-    font-family: Lemons-Bold;
-    text-align: left;
 
-    @include media('mobile') {
-      font-size: 18px;
-      text-align: center;
+    &::after {
+      background: linear-gradient(90deg, #e2772f -29.23%, #a55824 93.85%);
+      transition: all 0.3s ease-in-out;
+      width: 40rem;
     }
   }
 }

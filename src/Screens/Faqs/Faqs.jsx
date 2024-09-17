@@ -72,7 +72,7 @@ const Faqs = () => {
                 key="2"
                 extra={keyCheckerState === "2" ? genExtra2() : genExtra()}
               >
-                <p>In this month. Join our Discord for more info.</p>
+                <p>We are live Go get your wolf now!<a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Now</a></p>
               </Panel>
               <Panel
                 header="How can I join?"
@@ -80,7 +80,7 @@ const Faqs = () => {
                 extra={keyCheckerState === "3" ? genExtra2() : genExtra()}
               >
                 <p>
-                  By following us on Twitter and joining our Discord server to get a
+                  By following us on Twitter get a
                   chance for free mint.
                 </p>
               </Panel>
@@ -118,7 +118,7 @@ const Faqs = () => {
                 key="7"
                 extra={keyCheckerState === "7" ? genExtra2() : genExtra()}
               >
-                <p>On the Fractal Bitcoin blockchain</p>
+                <p>On the Fractal Bitcoin blockchain <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Now</a></p>
               </Panel>
             </Collapse>
           </Col>

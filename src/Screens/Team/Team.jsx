@@ -63,7 +63,7 @@ const Team = () => {
                 </div>
                 <div>
                   <p>
-                    Art generator  <br /> Developer
+                    Art generator  <br /> artist 
 
                   </p>
                 </div>

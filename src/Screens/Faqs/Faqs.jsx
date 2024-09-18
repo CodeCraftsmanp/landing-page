@@ -72,7 +72,7 @@ const Faqs = () => {
                 key="2"
                 extra={keyCheckerState === "2" ? genExtra2() : genExtra()}
               >
-                <p>We are live Go get your wolf now!<a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Now</a></p>
+                <p>We are live Go get your wolf now! <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Now</a></p>
               </Panel>
               <Panel
                 header="How can I join?"

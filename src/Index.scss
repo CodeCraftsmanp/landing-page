@@ -20,22 +20,27 @@ $location_modal_text: #aaa5a5;
   font-family: Lemons;
   src: url('../src/Fonts/LEMONMILK-Regular.otf') format('truetype');
 }
+
 @font-face {
   font-family: Painless;
   src: url('../src/Fonts/Painless.ttf') format('truetype');
 }
+
 @font-face {
   font-family: Lemons-Bold;
   src: url('../src/Fonts/LEMONMILK-Bold.otf') format('truetype');
 }
+
 @font-face {
   font-family: Lemons-Light;
   src: url('../src/Fonts/LEMONMILK-Light.otf') format('truetype');
 }
+
 @font-face {
   font-family: Lemons-Regular;
   src: url('../src/Fonts/LEMONMILK-Regular.otf') format('truetype');
 }
+
 // @font-face {
 //   font-family: Poppins-Regular;
 //   src: url('../src/Fonts/Poppins-Regular.ttf') format('truetype');
@@ -59,9 +64,11 @@ body {
   color: black;
   background-color: $lightGrey !important;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 a {
   color: $primary;
   text-decoration: none;
@@ -71,9 +78,11 @@ a {
     text-decoration: none;
   }
 }
+
 ::-webkit-scrollbar {
   width: 0.4rem;
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
   /* border-radius: 10px; */
@@ -93,27 +102,31 @@ a {
 }
 
 @mixin media($breakpoint) {
-  @if $breakpoint == mobile {
+  @if $breakpoint ==mobile {
     @media only screen and (max-width: 768px) {
       @content;
     }
   }
-  @if $breakpoint == tablet {
+
+  @if $breakpoint ==tablet {
     @media only screen and (max-width: 1025px) {
       @content;
     }
   }
-  @if $breakpoint == land {
+
+  @if $breakpoint ==land {
     @media only screen and (max-width: 1450px) {
       @content;
     }
   }
-  @if $breakpoint == desktop {
+
+  @if $breakpoint ==desktop {
     @media only screen and (max-width: 1799px) {
       @content;
     }
   }
-  @if $breakpoint == desktop-large {
+
+  @if $breakpoint ==desktop-large {
     @media only screen and (min-width: 1800px) {
       @content;
     }
@@ -125,6 +138,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .icon {
   width: 22px !important;
   height: 22px !important;
@@ -148,11 +162,13 @@ a {
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all 0.2s ease-out;
+
   @include media('mobile') {
     margin: 0;
     padding: 20px 40px;
   }
 }
+
 .discordBtn:hover {
   background-position: right bottom;
 }

@@ -120,6 +120,13 @@ const Faqs = () => {
               >
                 <p>On the Fractal Bitcoin blockchain <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Now</a></p>
               </Panel>
+              <Panel
+                header="WHAT  MARKETPLACE  IS THE PROJECT LIST ON?"
+                key="8"
+                extra={keyCheckerState === "8" ? genExtra2() : genExtra()}
+              >
+                <p>Once we sell out our Fractal Wolves collection, we'll be listing on unisat_wallet Marketplace!  <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Your Wolf Now !</a></p>
+              </Panel>
             </Collapse>
           </Col>
         </Row>

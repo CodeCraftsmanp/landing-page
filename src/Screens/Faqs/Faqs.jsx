@@ -64,7 +64,7 @@ const Faqs = () => {
                 <p>
                   {" "}
                   999 unique Fractal Wolves
-                  <br /> <br /> and another collection coming for holders{" "}
+                  {" "}
                 </p>
               </Panel>
               <Panel
@@ -114,14 +114,14 @@ const Faqs = () => {
                 </p>
               </Panel>
               <Panel
-                header="WHAT BLOCKCHAIN IS THE PROJECT HOSTED ON?"
+                header="What BLOCKCHAIN is the project hosted on?"
                 key="7"
                 extra={keyCheckerState === "7" ? genExtra2() : genExtra()}
               >
-                <p>On the Fractal Bitcoin blockchain <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Now</a></p>
+                <p>On the Fractal Bitcoin blockchain <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Your Wolf Now !</a></p>
               </Panel>
-              <Panel
-                header="WHAT  MARKETPLACE  IS THE PROJECT LIST ON?"
+              <Panel  
+                header="What Marketplace is the project list on?"
                 key="8"
                 extra={keyCheckerState === "8" ? genExtra2() : genExtra()}
               >

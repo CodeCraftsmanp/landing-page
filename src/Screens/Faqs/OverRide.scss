@@ -8,23 +8,23 @@
 
 .ant-collapse-header {
   color: #ffffff !important;
-  font-size: 20px !important;
-  font-family: Lemons-Regular !important;
+  font-size: 28px !important;
+  font-family: Merriweather !important;
   font-weight: bold !important;
   padding: 20px 0px !important;
   // padding: 0 !important;
 }
 
-.ant-collapse-arrow{
+.ant-collapse-arrow {
   display: none !important;
 }
 
 .ant-collapse-content {
   background: none !important;
-  font-size: 16px !important;
-  font-family: Lemons-Regular !important;
+  font-size: 26px !important;
+  font-family: Merriweather !important;
   color: #ffffff !important;
-  font-weight: bold !important;
+  font-weight: boldItalic !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -32,6 +32,7 @@
     font-size: 14px !important;
     padding: 20px 0 20px 0 !important;
   }
+
   .ant-collapse-content {
     font-size: 12px !important;
   }

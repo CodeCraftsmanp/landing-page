@@ -96,11 +96,11 @@
 
     h1 {
       color: #da6e27;
-      font-size: 44px;
+      font-size: 48px;
       font-weight: 700;
       letter-spacing: 0.135em;
       margin-bottom: 18px;
-      font-family: Lemons-Regular;
+      font-family: Merriweather;
 
       @include media('mobile') {
         font-size: 30px;
@@ -121,12 +121,13 @@
     }
 
     p {
-      font-size: 15px;
+      font-size: 20px;
       font-weight: 400;
       letter-spacing: 0.04em;
       line-height: 1.6em;
       margin-bottom: 38px;
-      font-family: Lemons-Regular;
+      font-family: Merriweather;
+      font-weight: boldItalic;
 
       @include media('mobile') {
         font-size: 12px;

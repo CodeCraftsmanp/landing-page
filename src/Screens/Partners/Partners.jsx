@@ -4,7 +4,7 @@ import styles from "./Partners.module.scss";
 import "./OverRide.scss";
 
 const MintButton = () => (
-  <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">
+  <a href="https://fractal.unisat.io/market/collection?collectionId=fractal_wolves">
   <button className={styles.mintButton}>
     <span>Mint your Wolf now !!!</span>
   </button>

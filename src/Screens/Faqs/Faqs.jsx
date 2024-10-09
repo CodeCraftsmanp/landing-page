@@ -118,14 +118,14 @@ const Faqs = () => {
                 key="7"
                 extra={keyCheckerState === "7" ? genExtra2() : genExtra()}
               >
-                <p>On the Fractal Bitcoin blockchain <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Your Wolf Now !</a></p>
+                <p>On the Fractal Bitcoin blockchain <a href="https://fractal.unisat.io/market/collection?collectionId=fractal_wolves">Get Your Wolf Now !</a></p>
               </Panel>
               <Panel  
                 header="What Marketplace is the project list on?"
                 key="8"
                 extra={keyCheckerState === "8" ? genExtra2() : genExtra()}
               >
-                <p>Once we sell out our Fractal Wolves collection, we'll be listing on unisat_wallet Marketplace!  <a href="https://fractal.inscribenow.io/collections/5d25ebc9730e635d">Mint Your Wolf Now !</a></p>
+                <p>Our Fractal Wolves collection is now live on the  <a href="https://fractal.unisat.io/market/collection?collectionId=fractal_wolves">Unisat  Marketplace!</a></p>
               </Panel>
             </Collapse>
           </Col>

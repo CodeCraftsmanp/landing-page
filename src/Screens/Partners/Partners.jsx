@@ -6,7 +6,7 @@ import "./OverRide.scss";
 const MintButton = () => (
   <a href="https://fractal.unisat.io/market/collection?collectionId=fractal_wolves">
   <button className={styles.mintButton}>
-    <span>Mint your Wolf now !!!</span>
+    <span>Get Your's AtUnisat  Marketplace!</span>
   </button>
   </a>
 );

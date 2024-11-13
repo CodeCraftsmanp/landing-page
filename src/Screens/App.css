@@ -62,12 +62,12 @@
         padding: 0.5rem 0.8rem;
     }
 
-    /* Adjust the video size on mobile */
+    /* Make the video larger on mobile */
     .embed-video-container {
-        width: 95%;
-        /* Make the video container larger on mobile */
+        width: 100%;
+        /* Full width on mobile */
         max-width: 100%;
-        /* Ensure it doesn't exceed the screen width */
+        /* Ensure it doesn't overflow */
     }
 }
 
@@ -75,7 +75,7 @@
 .embed-video-container {
     position: relative;
     width: 70%;
-    /* Adjust the default video width */
+    /* Default width for desktop */
     padding-bottom: 56.25%;
     /* Maintain 16:9 aspect ratio */
     margin-top: 2rem;

@@ -4,14 +4,13 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: #121212;
+    background-color: #d15252;
     color: #ffffff;
     min-height: 100vh;
 }
 
 .embed-heading {
     color: #00A8E8;
-    /* Change to any color you like */
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
@@ -55,7 +54,6 @@
 
     .embed-input {
         width: 90%;
-        /* Make input width adjust for small screens */
         font-size: 1rem;
     }
 
@@ -68,9 +66,10 @@
 /* Responsive iframe container */
 .embed-video-container {
     position: relative;
-    width: 100%;
+    width: 80%;
+    /* Adjust width to make video smaller */
     padding-bottom: 56.25%;
-    /* 16:9 aspect ratio */
+    /* Maintain 16:9 aspect ratio */
     margin-top: 2rem;
 }
 

@@ -62,14 +62,17 @@
         padding: 0.5rem 0.8rem;
     }
 
-    /* Make the video larger on mobile */
+    /* Make the video container take up full width on mobile */
     .embed-video-container {
-        width: 170%;
+        width: 100%;
         /* Full width on mobile */
-        max-width: 170%;
-        /* Ensure it doesn't overflow */
+        max-width: 100%;
+        /* Ensure it doesn't exceed the screen width */
+        padding-bottom: 56.25%;
+        /* Maintain the 16:9 aspect ratio */
     }
 }
+
 
 /* Default and Desktop Styles */
 .embed-video-container {

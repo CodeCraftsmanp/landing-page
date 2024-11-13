@@ -69,16 +69,18 @@
         max-width: 100%;
         /* Ensure it doesn't exceed the screen width */
         padding-bottom: 56.25%;
-        /* Maintain the 16:9 aspect ratio */
+        /* Maintain 16:9 aspect ratio */
+        margin-top: 2rem;
     }
 }
-
 
 /* Default and Desktop Styles */
 .embed-video-container {
     position: relative;
     width: 70%;
     /* Default width for desktop */
+    max-width: 100%;
+    /* Ensure it doesn't exceed the screen width */
     padding-bottom: 56.25%;
     /* Maintain 16:9 aspect ratio */
     margin-top: 2rem;
@@ -86,14 +88,23 @@
 
 .embed-video-container iframe {
     position: absolute;
-    top: -25%;
+    top: 0;
     left: 50%;
-    /* Center the video horizontally */
     transform: translateX(-50%);
-    /* Shift the video back by 50% of its own width */
-    width: 155%;
-    /* Increase the width to make it larger */
-    height: 155%;
-    /* Increase the height proportionally */
+    /* Center the video horizontally */
+    width: 100%;
+    /* Set width to 100% for desktop */
+    height: 100%;
+    /* Maintain aspect ratio */
     border-radius: 10px;
+}
+
+/* Larger video on mobile */
+@media (max-width: 768px) {
+    .embed-video-container iframe {
+        width: 130%;
+        /* Increase the width to make it larger */
+        height: 130%;
+        /* Increase the height proportionally */
+    }
 }

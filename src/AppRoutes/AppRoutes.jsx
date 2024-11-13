@@ -11,7 +11,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/join" element={<Join />} />
-        <Route path="/embed_youtube_video" element={<EmbedVideo />} />
+        <Route path="/youtube_video" element={<EmbedVideo />} />
       </Routes>
     </Router>
   );

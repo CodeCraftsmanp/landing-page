@@ -64,9 +64,9 @@
 
     /* Make the video larger on mobile */
     .embed-video-container {
-        width: 100%;
+        width: 170%;
         /* Full width on mobile */
-        max-width: 100%;
+        max-width: 170%;
         /* Ensure it doesn't overflow */
     }
 }

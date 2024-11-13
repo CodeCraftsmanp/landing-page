@@ -1,0 +1,84 @@
+/* Styles for the EmbedVideo Component */
+.embed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.embed-heading {
+    color: #00A8E8;
+    /* Change to any color you like */
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.embed-description {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.embed-input {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.embed-button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .embed-heading {
+        font-size: 1.5rem;
+    }
+
+    .embed-input {
+        width: 90%;
+        /* Make input width adjust for small screens */
+        font-size: 1rem;
+    }
+
+    .embed-button {
+        font-size: 1rem;
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+/* Responsive iframe container */
+.embed-video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    margin-top: 2rem;
+}
+
+.embed-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

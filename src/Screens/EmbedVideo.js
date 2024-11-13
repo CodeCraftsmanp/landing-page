@@ -16,7 +16,7 @@ const EmbedVideo = () => {
            <h1 className="embed-heading">Watch YouTube Videos Without Ads</h1>
            <p className="embed-description">
                Tired of interruptions? Use this tool to watch your long YouTube videos ad-free!
-               Simply paste the video URL in the field below, click <strong>Embed Video</strong>, and enjoy seamless viewing without distractions.
+               Simply paste the video URL <strong>(Video Link)</strong> in the field below, click <strong>Embed Video</strong>, and enjoy seamless viewing without distractions.
            </p>
 
            <input

@@ -47,7 +47,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .embed-heading {
         font-size: 1.5rem;
     }
@@ -86,9 +86,14 @@
 
 .embed-video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -25%;
+    left: 50%;
+    /* Center the video horizontally */
+    transform: translateX(-50%);
+    /* Shift the video back by 50% of its own width */
+    width: 155%;
+    /* Increase the width to make it larger */
+    height: 155%;
+    /* Increase the height proportionally */
     border-radius: 10px;
 }
